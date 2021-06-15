@@ -59,7 +59,7 @@ In Swarm, these per-peer balances represent trustful agreements between nodes. T
 More info can be found by using the chequebook api.
 
 ```bash
-curl localhost:1635/chequebook/cheque | jq
+curl localhost:1635/settlements | jq
 ```
 
 ```json
